@@ -14,6 +14,7 @@ public class Locators4 {
         driver.get("https://rahulshettyacademy.com/AutomationPractice/");
         System.out.println( driver.findElement(By.xpath("//header/div/button[1]/following-sibling::button[2]")).getText());
         System.out.println( driver.findElement(By.xpath("//header/div/button[1]/parent::div/button[2]")).getText());
+        System.out.println("shubham jadhav");
 	}
 
 }
